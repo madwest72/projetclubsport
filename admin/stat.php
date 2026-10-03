@@ -14,7 +14,10 @@ $requete = $bdd->prepare('SELECT
 
 $requete->execute();
 $ligne = $requete->fetch();
-$adherentstotal = $ligne['total_foot'] + $ligne['total_basket'] + $ligne['total_athle'] + $ligne['total_natation'] + $ligne['total_danse'];
+
+$req = $bdd->prepare('SELECT COUNT(*) FROM utilisateur');
+$req->execute();
+$adherentstotal = $req->fetchColumn();
 ?>
 
 <div class="container">

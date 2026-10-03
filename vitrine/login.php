@@ -18,14 +18,8 @@ if (isset($_POST['log'])) {
             } else {
                 header("Location: info.php?id=" . $_SESSION['id']);
             }
-        } else {
-            $erreur = "bug";
         }
-    } else {
-        $erreur = "miaou";
-    }
-} else {
-    $erreur = "identifiant ou mot de passe incorrect";
+    } 
 }
 
 
@@ -62,13 +56,13 @@ if (isset($_POST['log'])) {
                             </div>
                         </form>
                     </div>
-
+                    
                     <div class="col-lg-6 d-flex align-items-center" style="background-color: #ff7700;">
                         <div class="text-black px-4 py-4 p-md-5 mx-md-4">
                             <h4 class="mb-4">À propos du site</h4>
                             <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <?php echo $erreur; ?> </p>
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </div>
                     </div>
 

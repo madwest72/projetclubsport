@@ -32,7 +32,7 @@ $inscrits = $requete->fetchAll();
     <tbody>
         <?php foreach ($inscrits as $inscrit) {
             if ($inscrit['admins'] == 1) {
-                $styleTexte = ' fw-bold';
+                $styleTexte = 'fw-bold';
             } else {
                 $styleTexte = '';
             } ?>

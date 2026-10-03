@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         <div class="col-mg-1 col-lg-12">
 
-            <div class="card shadow-lg border-0" style="border-top: 5px solid #ff6600; border-radius: 15px; ">
+            <div class="card shadow-lg border-0" style="border: 1px solid #ff6600 !important; border-radius: 15px !important;  ">
                 <div class="row g-0">
                     <div class="col-lg-6 p-4">
                         <div class="text-center mb-3">

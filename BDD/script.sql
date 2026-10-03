@@ -12,7 +12,6 @@ CREATE TABLE utilisateur (
     date_naissance DATE,
     adresse VARCHAR(255),
     tel VARCHAR(10),
-    sport VARCHAR(255),
     professionnel BOOLEAN,
     admins BOOLEAN
 );
