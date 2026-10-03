@@ -15,7 +15,7 @@ Ce projet a pour but de fournir une plateforme complète pour un club omnisports
 ## Technologies utilisées
 
 - Back-end : PHP 8, PDO
-- Base de données : MySQL / 
+- Base de données : MySQL / MariaDB
 - Front-end : HTML5, CSS3, (Bootstrap pour la structure)
 - Conception : Looping (Modélisation de données)
 - Environnement : Serveur local (XAMPP/WAMP)
@@ -24,7 +24,7 @@ Ce projet a pour but de fournir une plateforme complète pour un club omnisports
 
 Le code est rigoureusement séparé en trois dossiers distincts pour la logique métier, la gestion des données et l'interface publique :
 
-
+```text
 projetclubsport/
 │
 ├── admin/                  # ESPACE ADMINISTRATION (Accès restreint)
